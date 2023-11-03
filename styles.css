@@ -40,3 +40,16 @@ header div.container{
     display: inline;
     margin-right: 20px;
 }
+
+.overview-hero-image img {
+    height: 200px;
+    width: 200px;
+    opacity: .4;
+}
+
+.overview-hero .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E2E8f0;
+}
