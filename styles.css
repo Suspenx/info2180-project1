@@ -47,9 +47,45 @@ header div.container{
     opacity: .4;
 }
 
+.cards img{
+    height: 200px;
+    width: 200px;
+}
+
 .overview-hero .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #E2E8f0;
+}
+
+section.learn-about .container div.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+}
+
+section.learn-about .container .card{
+    grid-row: 2;
+    border: 1px solid #E2E8F0; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    
+}
+
+section.learn-about h2{
+    font-size: 24px;
+    color: #48bb78
+}
+
+section.learn-about h3{
+    font-size: 21px;
+    color:#48bb78
+}
+
+.card {
+    padding: 20px
+    
+    
 }
