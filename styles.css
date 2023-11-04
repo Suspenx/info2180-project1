@@ -52,22 +52,28 @@ header div.container{
     width: 200px;
 }
 
+.overview-hero{
+    background-color: #E2E8f0;
+    width: 100%;
+}
 .overview-hero .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
     background-color: #E2E8f0;
 }
 
 section.learn-about .container div.cards{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows:auto ;
     
 }
 
 section.learn-about .container .card{
     grid-row: 2;
+    margin: 10px;
+    padding: 20px;
     border: 1px solid #E2E8F0; /* Border color */
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
@@ -84,8 +90,55 @@ section.learn-about h3{
     color:#48bb78
 }
 
-.card {
-    padding: 20px
+
+section.testing{
+    background-color: #4a5568;
+    width: 100%;
+
+}
+
+section.testing .container{
+    
+    display: flex; 
+    padding: 50px;
+    flex-direction: row;
+    align-items: center;
+    text-align:left;
+    margin-right: 120px;
+    word-wrap: break-word;
+    background-color: #4a5568;
+    color: white
     
     
 }
+
+testing .container .testing-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testing .container .text-content {
+    flex-grow: 1; /* To make the text content grow to fill available space */
+}
+
+
+section.testing div.cta{
+    background-color: #48bb78;
+    margin-left: 60px;
+}
+
+section.testing .container .cta a.btn {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100px;
+    height:50px;
+
+
+}
+
+
+
+
