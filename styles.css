@@ -149,8 +149,8 @@ section.stories h2
 }
 
 section.stories .container img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 170px;
     border-radius: 50%;
 }
 
@@ -158,10 +158,50 @@ section.stories .container article{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    margin:30px;
 }
 
 section.stories .container div.article-body{
     grid-column: 2;
+    margin: 15px;
 }
 
+section.newsletter{
+    background-color: #48bb78;
+    width:100% ;
+    padding:50px ;
 
+}
+
+section.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+section.newsletter .container form{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.newsletter .container button.btn {
+    background-color: #5A67D8;
+    color: #fff; 
+    margin-inline-start:20px;
+    width: 100px;
+    height:50px;
+}
+
+/* .newsletter.container.div.form-group {
+    
+    padding:30;
+} */
+
+footer {
+    background-color: #4A5568; 
+    color: white; 
+    padding: 20px;
+}
